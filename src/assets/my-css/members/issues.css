@@ -1,0 +1,11 @@
+.footer {
+    background-color: cadetblue;
+    color: darkblue;
+    text-align: right;
+}
+
+pre{
+    white-space:pre-wrap; 
+    overflow-x:hidden;
+    overflow-x:scroll;
+}
