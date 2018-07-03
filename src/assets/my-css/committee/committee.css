@@ -1,0 +1,22 @@
+h2 {
+    text-align: center;
+}
+
+body{
+    background-image: url("../../pictures/members/");
+}
+
+.footer {
+    background-color: cadetblue;
+    color: darkblue;
+    text-align: right;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;   
+}
+
+th,td {
+    word-wrap: break-word;
+}
