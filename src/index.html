@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>SocMan</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="assets/my-css/home/home.css">
+  
+</head>
+
+
+<body>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="#">
+    <img src="assets/pictures/logo-small.png" alt="logo" style="width:100px">
+  </a>
+  <form class="form-inline my-2 my-lg-0" action="adminLogin.php" method="POST">
+      <input class="form-control mr-sm-2" type="text" placeholder="Admin Username" name="adminName">
+      <input class="form-control mr-sm-2" type="password" placeholder="Admin Password" name="adminPassword">
+      <button type="submit" class="btn btn-success my-2 my-sm-0" name="submit">Submit</button>
+  </form>
+</nav>
+
+
+<div class="container-fluid">
+ <div class="row">
+    
+     <div class="col-7 col-sm-7 col-md-7 col-lg-7 col-xl-7">
+         <img src="assets/pictures/home/building-1.jpg" alt="buildings" style="width:180%">
+     </div>
+     
+     <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+         <form class="login-form" action="connection.php" method="POST">
+             <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" class="form-control" id="text" name="username">
+             </div>
+             <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" class="form-control" id="password" name="password">
+             </div>
+             <div class="form-group form-check">
+                <label class="form-check-label">
+                 <input class="form-check-input" type="checkbox"> Remember me
+                </label>
+             </div>
+              <button type="submit" class="btn btn-primary" name="submit">Submit</button>
+        </form>
+     </div>
+     
+  </div>
+</div>
+
+</body>
+</html>
