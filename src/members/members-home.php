@@ -123,15 +123,11 @@ $conn->close();
 <div class="container">
  <div class="row">
 
-     <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+     <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
          <button id="postIssue" type="button" class="btn btn-outline-danger btn-block">Address an issue/grievance</button><br/>
      </div>
      
-     <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-         <button type="button" class="btn btn-outline-success btn-block">View notice board</button><br/>
-     </div>
-     
-     <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+     <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
          <button id="profile" type="button" class="btn btn-outline-primary btn-block">View your profile</button><br/>
      </div>
           

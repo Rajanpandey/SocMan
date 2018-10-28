@@ -87,22 +87,7 @@ $conn->close();
         <h2>Addressed: <a href="#"><button type="button" class="btn btn-outline-success"><?php echo $total_addressed ?> issues solved</button></a></h2>
      </div>         
   </div>
-</div><hr/>
-
-<div class="container">
- <div class="row">
-
-     <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-         <button type="button" class="btn btn-outline-success btn-block">Post a notice</button><br/>
-     </div>
-     
-     <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-         <button type="button" class="btn btn-outline-primary btn-block">View Notice Board</button><br/>
-     </div>
-          
-  </div>
-</div><hr/>
-
+</div><hr/><br/>
 
 <div class="container">
 <div class="row">
@@ -118,12 +103,12 @@ $conn->close();
     <?php     
     if($page==1){
         ?>
-        <li class="page-item disabled"><a class="page-link" href='members-home.php?page=1'> << </a></li>
+        <li class="page-item disabled"><a class="page-link" href='committee-home.php?page=1'> << </a></li>
     <?php
     }
     else {
         ?>
-        <li class="page-item"><a class="page-link" href='members-home.php?page=1'> << </a></li>
+        <li class="page-item"><a class="page-link" href='committee-home.php?page=1'> << </a></li>
     <?php
     }    
         
@@ -135,7 +120,7 @@ $conn->close();
                 <?php				   
             } else{
                 ?>
-                <li class="page-item"><a class="page-link" href='members-home.php?page=<?php echo "$i" ?>'><?php echo "$i" ?></a></li>
+                <li class="page-item"><a class="page-link" href='committee-home.php?page=<?php echo "$i" ?>'><?php echo "$i" ?></a></li>
             <?php	
             }							
         };
@@ -149,7 +134,7 @@ $conn->close();
                 <?php				   
             } else{
                 ?>
-                <li class="page-item"><a class="page-link" href='members-home.php?page=<?php echo "$i" ?>'><?php echo "$i" ?></a></li>
+                <li class="page-item"><a class="page-link" href='committee-home.php?page=<?php echo "$i" ?>'><?php echo "$i" ?></a></li>
             <?php	
             }							
         };
@@ -157,12 +142,12 @@ $conn->close();
                              
     if($page==$total_pages){
     ?>
-    <li class="page-item disabled"><a class="page-link" href='members-home.php?page=<?php echo "$total_pages" ?>'> >> </a></li>	
+    <li class="page-item disabled"><a class="page-link" href='committee-home.php?page=<?php echo "$total_pages" ?>'> >> </a></li>	
     <?php
     }
     else {
         ?>
-        <li class="page-item"><a class="page-link" href='members-home.php?page=<?php echo "$total_pages" ?>'> >> </a></li>	
+        <li class="page-item"><a class="page-link" href='committee-home.php?page=<?php echo "$total_pages" ?>'> >> </a></li>	
      <?php	
         }
     ?>
@@ -177,12 +162,12 @@ $conn->close();
     <?php     
     if($page==1){
         ?>
-        <li class="page-item disabled"><a class="page-link" href='members-home.php?page=1'> << </a></li>
+        <li class="page-item disabled"><a class="page-link" href='committee-home.php?page=1'> << </a></li>
     <?php
     }
     else {
         ?>
-        <li class="page-item"><a class="page-link" href='members-home.php?page=1'> << </a></li>
+        <li class="page-item"><a class="page-link" href='committee-home.php?page=1'> << </a></li>
     <?php
     }
                              
@@ -193,19 +178,19 @@ $conn->close();
             <?php				   
         } else{
             ?>
-            <li class="page-item"><a class="page-link" href='members-home.php?page=<?php echo "$i" ?>'><?php echo "$i" ?></a></li>
+            <li class="page-item"><a class="page-link" href='committee-home.php?page=<?php echo "$i" ?>'><?php echo "$i" ?></a></li>
         <?php	
         }							
     };
                              
     if($page==$total_pages){
     ?>
-    <li class="page-item disabled"><a class="page-link" href='members-home.php?page=<?php echo "$total_pages" ?>'> >> </a></li>	
+    <li class="page-item disabled"><a class="page-link" href='committeecommittee-home.php?page=<?php echo "$total_pages" ?>'> >> </a></li>	
     <?php
     }
     else {
         ?>
-        <li class="page-item"><a class="page-link" href='members-home.php?page=<?php echo "$total_pages" ?>'> >> </a></li>	
+        <li class="page-item"><a class="page-link" href='committeecommittee-home.php?page=<?php echo "$total_pages" ?>'> >> </a></li>	
      <?php	
         }
     ?>
@@ -221,12 +206,12 @@ $conn->close();
     <?php     
     if($page==1){
         ?>
-        <li class="page-item disabled"><a class="page-link" href='members-home.php?page=1'> << </a></li>
+        <li class="page-item disabled"><a class="page-link" href='committee-home.php?page=1'> << </a></li>
     <?php
     }
     else {
         ?>
-        <li class="page-item"><a class="page-link" href='members-home.php?page=1'> << </a></li>
+        <li class="page-item"><a class="page-link" href='committee-home.php?page=1'> << </a></li>
     <?php
     }
                              
@@ -237,19 +222,19 @@ $conn->close();
             <?php				   
         } else{
             ?>
-            <li class="page-item"><a class="page-link" href='members-home.php?page=<?php echo "$i" ?>'><?php echo "$i" ?></a></li>
+            <li class="page-item"><a class="page-link" href='committee-home.php?page=<?php echo "$i" ?>'><?php echo "$i" ?></a></li>
         <?php	
         }							
     };
                              
     if($page==$total_pages){
     ?>
-    <li class="page-item disabled"><a class="page-link" href='members-home.php?page=<?php echo "$total_pages" ?>'> >> </a></li>	
+    <li class="page-item disabled"><a class="page-link" href='committee-home.php?page=<?php echo "$total_pages" ?>'> >> </a></li>	
     <?php
     }
     else {
         ?>
-        <li class="page-item"><a class="page-link" href='members-home.php?page=<?php echo "$total_pages" ?>'> >> </a></li>	
+        <li class="page-item"><a class="page-link" href='committee-home.php?page=<?php echo "$total_pages" ?>'> >> </a></li>	
      <?php	
         }
     ?>

@@ -32,7 +32,7 @@ $conn->close();
 <body>
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <!-- Brand/logo -->
-  <a class="navbar-brand" href="../members/members-home.php">
+  <a class="navbar-brand" href="../committee/committee-home.php">
     <img src="../assets/pictures/logo-small.png" alt="logo" style="width:100px">
   </a>
 
